@@ -9,7 +9,7 @@ COPY . /app
 
 # Install any necessary dependencies
 # You need confluent_kafka for Kafka interactions
-RUN pip install --no-cache-dir confluent_kafka
+RUN pip install --no-cache-dir confluent_kafka aiohttp
 
 # Add any other required packages here:
 # RUN pip install --no-cache-dir <other-packages>
